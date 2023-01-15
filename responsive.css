@@ -1,0 +1,182 @@
+@media screen and (max-width:576px) {
+    section {
+       padding: 10px;
+       margin-top: 50px;
+    }
+
+/* nav bar style star */
+
+
+
+nav{
+    padding: 10px;
+    /* position: fixed; */
+}
+nav .logo h2{
+    font-size: 15px;
+}
+
+.nav-bar ul li{
+    margin-left:15px; 
+}
+
+/* nav bar style end */
+
+
+/* banner responsive star */
+
+    .banner-head{
+        padding: 10px;
+        font-size: 35px;
+        font-weight: 700;
+    }
+    .banner-info{
+        margin-bottom: 20px;
+        padding:0;
+    }
+    .banner-description{
+        text-align: justify;
+        cursor: pointer;
+    }
+    .banner img{
+        width: 80%;
+    }
+
+/* banner responsive star */
+
+/* quick list responsive star */
+
+.qucik-list{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.qucik-list-image{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    margin: auto;
+}
+.qucik-list-image img{
+    height: 300px;
+    width: 300px;
+}
+
+.qucik-list-image-info{
+    margin-top: 10px;
+    text-align: center;
+}
+.qucik-list-image-info-title{
+    padding-right:0px;
+    padding: 10px;
+    text-align: center;
+}
+.qucik-list-image-info-description{
+    padding: 10px;
+}
+
+
+/* quick list responsive end */
+
+/* Features responsive star */
+
+    .Features{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .left-side-title{
+        padding-left: 10px;
+    }
+
+    .item p{
+        text-align: justify;
+    }
+
+    .right-side img{
+        width: 80%;
+    }
+    .button{
+        text-align: center;
+        margin-top: -80px;
+        margin-left:-150px;
+    }
+    .img-btn{
+        padding: 15px 30px;
+         background: #FF900E;
+         border: none;
+         border-radius: 5px;
+         color: white;
+     }
+     .img-btn > h2{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .img-btn > p{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    
+
+/* Features responsive end */
+
+
+/* fact responsive star */
+
+    .fact-text h1{
+        padding: 10px;
+    }
+    .fact-text p{
+        padding: 10px;
+    }
+
+    .facts{
+        
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin:20px auto;
+        gap: 50px;
+    }
+    article:hover{
+        color: white;
+        border: none;
+        background: crimson;
+    }
+    article h2:hover{
+        color: white;
+    }
+
+/* fact responsive end */
+
+    /* sponspors responsive star */
+
+    .sponspors-text p{
+        padding: 10px;
+        margin-bottom:20px;
+    }
+    .sponspors{
+        display: grid;
+        grid-template-columns: repeat(1, 0.5fr);
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        gap: 25px;
+    }
+
+    /* sponspors responsive star */
+
+
+    /* footer responsive star*/
+    footer{
+        bottom: 0;
+    }
+    .main-content{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .main-content .box{
+        margin: 5px 0 0 0;
+    }
+}
+    /* footer responsive end*/
